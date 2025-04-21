@@ -1,0 +1,12 @@
+{
+  "type": "micro",
+  "wake_word": "Okay Luna",
+  "author": "Emre299",
+  "website": "https://github.com/emre299",
+  "model": "./okey_luna.tflite",
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,
+    "sliding_window_average_size": 10
+  }
+}

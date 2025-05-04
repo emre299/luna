@@ -183,7 +183,7 @@ media_player:
           id: media_mixing_input
           decibel_reduction: 20
           duration: 0.0s      
-    on_state:
+    on_state: ###on idle altına tasi 
       - mixer_speaker.apply_ducking:
           id: media_mixing_input
           decibel_reduction: 0
